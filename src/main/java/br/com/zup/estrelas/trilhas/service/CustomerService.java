@@ -63,7 +63,7 @@ public class CustomerService implements ICustomerService {
 		return new MessageDTO(MISSING_CUSTOMER);
 	}
 
-	public MessageDTO updateCliente(String cpf, UpdateCustomerDTO updateCustomerDTO) {
+	public MessageDTO updateCustomer(String cpf, UpdateCustomerDTO updateCustomerDTO) {
 
 		Optional<Customer> consultedCustomer = customerRepository.findById(cpf);
 

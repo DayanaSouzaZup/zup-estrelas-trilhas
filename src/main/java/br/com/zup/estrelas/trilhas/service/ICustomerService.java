@@ -12,7 +12,7 @@ public interface ICustomerService {
 	
 	public Customer readCustomer(String cpf);
 	
-	public List<Customer> CustomerList();
+	public List<Customer> customerList();
 	
 	public MessageDTO removeCustomer(String cpf);
 	
