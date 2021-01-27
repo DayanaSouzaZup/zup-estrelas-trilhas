@@ -16,6 +16,6 @@ public interface ICustomerService {
 	
 	public MessageDTO removeCustomer(String cpf);
 	
-	public MessageDTO updateCliente(String cpf, UpdateCustomerDTO updateCustomerDTO);
+	public MessageDTO updateCustomer(String cpf, UpdateCustomerDTO updateCustomerDTO);
 
 }

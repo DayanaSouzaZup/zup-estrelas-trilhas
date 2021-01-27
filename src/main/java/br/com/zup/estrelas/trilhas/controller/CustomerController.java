@@ -57,7 +57,7 @@ public class CustomerController {
 	@PutMapping(path = "/{cpf}", produces = { MediaType.APPLICATION_JSON_VALUE })
 	public MessageDTO updateCliente(@PathVariable String cpf, @RequestBody UpdateCustomerDTO customer) {
 
-		return customerService.updateCliente(cpf, customer);
+		return customerService.updateCustomer(cpf, customer);
 	}
 
 }
